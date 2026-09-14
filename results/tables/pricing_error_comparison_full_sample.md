@@ -1,0 +1,9 @@
+# Pricing Error Comparison: CAPM vs FF3 vs FF4 (Full Sample)
+
+| Model   |   N_Portfolios |   MAA (%/mo) |   MAA Annualized (%) |   RMS Alpha (%/mo) |   RMS Alpha Annualized (%) |   Max |Alpha| (%/mo) |   Max |Alpha| Annualized (%) | Sig Alphas (p<0.05)   | Sig Alphas (p<0.10)   |   Mean R2 (%) |   Mean Adj-R2 (%) |   Mean Resid Vol (%/mo) |
+|:--------|---------------:|-------------:|---------------------:|-------------------:|---------------------------:|---------------------:|-----------------------------:|:----------------------|:----------------------|--------------:|------------------:|------------------------:|
+| CAPM    |              9 |        0.343 |                 4.12 |              0.384 |                       4.61 |                 0.56 |                         6.72 | 1/9                   | 2/9                   |          74.2 |              74.1 |                    4.88 |
+| FF3     |              9 |        0.312 |                 3.75 |              0.396 |                       4.75 |                 0.6  |                         7.2  | 4/9                   | 6/9                   |          87.7 |              87.6 |                    3.11 |
+| FF4     |              9 |        0.238 |                 2.85 |              0.288 |                       3.46 |                 0.62 |                         7.44 | 3/9                   | 5/9                   |          93.4 |              93.3 |                    2.33 |
+
+*Evaluated across 9 balanced test portfolios (SV, SN, SG, BN, BG, WS, WB, LS, LB).*

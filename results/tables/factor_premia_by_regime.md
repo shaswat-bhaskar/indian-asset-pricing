@@ -1,0 +1,10 @@
+# Factor Premia and Risk Across Market Regimes
+
+| Factor   |   Normal Mean (%/mo) |   Normal Ann Mean (%) |   Normal Ann Vol (%) |   Normal Sharpe |   Crisis Mean (%/mo) |   Crisis Ann Mean (%) |   Crisis Ann Vol (%) |   Crisis Sharpe |   Diff (Norm - Cris) |   t-stat (Diff) |   p-value (Diff) |
+|:---------|---------------------:|----------------------:|---------------------:|----------------:|---------------------:|----------------------:|---------------------:|----------------:|---------------------:|----------------:|-----------------:|
+| MF       |                 0.66 |                  7.86 |                14.71 |            0.53 |                 0.78 |                  9.33 |                31.33 |            0.3  |                -1.47 |           -0.17 |           0.8644 |
+| SMB      |                 0.17 |                  2.05 |                13.48 |            0.15 |                -0.65 |                 -7.76 |                19.3  |           -0.4  |                 9.81 |            1.67 |           0.0954 |
+| HML      |                 0.66 |                  7.89 |                16.3  |            0.48 |                 0.76 |                  9.1  |                23.67 |            0.38 |                -1.21 |           -0.17 |           0.8663 |
+| WML      |                 1.18 |                 14.19 |                15.68 |            0.9  |                 1.04 |                 12.53 |                30.82 |            0.41 |                 1.66 |            0.19 |           0.8474 |
+
+*Normal = Low-Volatility state; Crisis = High-Volatility state. Welch's t-test with unequal variances.*
