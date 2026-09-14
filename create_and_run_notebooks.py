@@ -17,7 +17,7 @@ def build_master_notebook():
     cells = []
 
     # Title & Intro
-    cells.append(nbf.v4.new_markdown_cell("""# Empirical Asset Pricing in Indian Equities: Factor Premia, Pricing Errors and Regime Dependence
+    cells.append(nbf.v4.new_markdown_cell(r"""# Empirical Asset Pricing in Indian Equities: Factor Premia, Pricing Errors and Regime Dependence
 ### Testing CAPM, Fama–French Three-Factor and Carhart Four-Factor Models (1993–2025)
 
 **Author:** Shaswat Bhaskar  
@@ -76,7 +76,7 @@ print("Environment configured successfully. Ready for empirical analysis.")
 """))
 
     # Section 1: Data Ingestion
-    cells.append(nbf.v4.new_markdown_cell("""---
+    cells.append(nbf.v4.new_markdown_cell(r"""---
 ## Section 1: Data Ingestion & Quality Audit (Steps 0.1–0.12)
 We load the synchronized monthly master panel covering **November 1993 to December 2025** ($T=386$ months).
 """))
@@ -93,7 +93,7 @@ quality_rep
 """))
 
     # Section 2: Factor Descriptive Statistics
-    cells.append(nbf.v4.new_markdown_cell("""---
+    cells.append(nbf.v4.new_markdown_cell(r"""---
 ## Section 2: Factor Descriptive Statistics & Correlation Structure
 We compute annualized means, standard deviations, Sharpe ratios, skewness, kurtosis, autocorrelations, and $t$-tests for each factor.
 """))
@@ -127,7 +127,7 @@ plt.show()
 """))
 
     # Section 3: Time-Series Regressions
-    cells.append(nbf.v4.new_markdown_cell("""---
+    cells.append(nbf.v4.new_markdown_cell(r"""---
 ## Section 3: Time-Series Asset Pricing Regressions (CAPM, FF3, Carhart FF4)
 All regressions are estimated via OLS with **Newey-West (1987) HAC robust standard errors** ($L=3$ lags).
 """))
@@ -151,7 +151,7 @@ display(ff4_table)
 """))
 
     # Section 4: Pricing Errors
-    cells.append(nbf.v4.new_markdown_cell("""---
+    cells.append(nbf.v4.new_markdown_cell(r"""---
 ## Section 4: Pricing Error Analysis & Cross-Model Comparison
 We compare Mean Absolute Alpha ($MAA$), RMS Alpha, Max $|\alpha|$, and Mean $R^2$ across models.
 """))
@@ -176,7 +176,7 @@ plt.show()
 """))
 
     # Section 5: GRS Test
-    cells.append(nbf.v4.new_markdown_cell("""---
+    cells.append(nbf.v4.new_markdown_cell(r"""---
 ## Section 5: Gibbons–Ross–Shanken (GRS) Exact Joint Hypothesis Test
 $$H_0: \boldsymbol{\alpha} = [\alpha_1, \alpha_2, \dots, \alpha_N]' = \mathbf{0}$$
 $$GRS = \frac{T - N - K}{N} \left( 1 + \hat{\boldsymbol{\mu}}_F' \hat{\boldsymbol{\Sigma}}_F^{-1} \hat{\boldsymbol{\mu}}_F \right)^{-1} \hat{\boldsymbol{\alpha}}' \hat{\boldsymbol{\Sigma}}_\epsilon^{-1} \hat{\boldsymbol{\alpha}} \sim F_{N, T - N - K}$$
@@ -187,7 +187,7 @@ display(grs_results)
 """))
 
     # Section 6: Regime Analysis (HMM)
-    cells.append(nbf.v4.new_markdown_cell("""---
+    cells.append(nbf.v4.new_markdown_cell(r"""---
 ## Section 6: Market Regime Analysis (2-State Gaussian Hidden Markov Model)
 We classify market conditions into **State 0 (Normal / Low-Volatility)** and **State 1 (Crisis / High-Volatility)**.
 """))
@@ -220,7 +220,7 @@ plt.show()
 """))
 
     # Section 7: Out-of-Sample Testing
-    cells.append(nbf.v4.new_markdown_cell("""---
+    cells.append(nbf.v4.new_markdown_cell(r"""---
 ## Section 7: Out-of-Sample Testing (2016–2025)
 We validate factor models on a strictly chronological out-of-sample period ($N=120$ months).
 """))
@@ -231,7 +231,7 @@ display(pricing_errors_oos)
 """))
 
     # Section 8: Portfolio Backtest & Transaction Costs
-    cells.append(nbf.v4.new_markdown_cell("""---
+    cells.append(nbf.v4.new_markdown_cell(r"""---
 ## Section 8: Portfolio Backtest & Transaction Cost Sensitivity
 We evaluate factor strategies and equal-weighted multi-factor combinations under **0, 25, 50, and 100 bps** transaction cost friction.
 """))
@@ -267,7 +267,7 @@ plt.show()
 """))
 
     # Section 9: Robustness
-    cells.append(nbf.v4.new_markdown_cell("""---
+    cells.append(nbf.v4.new_markdown_cell(r"""---
 ## Section 9: Subsample Robustness & HAC Lag Sensitivity
 We test model stability across historical eras (Pre-GFC vs Post-GFC) and Newey-West lag choices ($L=1, 3, 6, 12$).
 """))
@@ -283,7 +283,7 @@ display(lag_sens)
 """))
 
     # Section 10: Conclusion
-    cells.append(nbf.v4.new_markdown_cell("""---
+    cells.append(nbf.v4.new_markdown_cell(r"""---
 ## Section 10: Empirical Conclusions
 1. **CAPM is Inadequate:** Pricing errors are large ($MAA = 4.12\%$ p.a.) and GRS strongly rejects $H_0$ ($p=0.0016$).
 2. **Value ($HML$) and Momentum ($WML$) are Dominant:** $HML$ earns $+8.50\%$ p.a. ($t=2.37$), and $WML$ earns $+13.35\%$ p.a. ($t=3.08$).
