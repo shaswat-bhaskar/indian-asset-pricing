@@ -3,6 +3,7 @@
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Econometrics: Statsmodels](https://img.shields.io/badge/Econometrics-Statsmodels-orange.svg)](https://www.statsmodels.org/)
+[![Author: Shaswat Bhaskar](https://img.shields.io/badge/Author-Shaswat%20Bhaskar-blueviolet.svg)](https://github.com/shaswat-bhaskar)
 
 A research-grade empirical asset pricing study testing the **Capital Asset Pricing Model (CAPM)**, **Fama–French Three-Factor Model (FF3)**, and **Carhart Four-Factor Model (FF4)** across the cross-section of Indian equities over a 32-year sample period (**November 1993 to December 2025**, $T = 386$ monthly observations / 8,004 daily observations).
 

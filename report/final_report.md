@@ -1,6 +1,8 @@
-# Empirical Asset Pricing in Indian Equities: Factor Premia, Pricing Errors and Regime Dependence
+﻿# Empirical Asset Pricing in Indian Equities: Factor Premia, Pricing Errors and Regime Dependence
 
-**Testing CAPM, Fama–French Three-Factor and Carhart Four-Factor Models in the Indian Equity Market (1993–2025)**
+**Author:** Shaswat Bhaskar  
+
+**Testing CAPM, Famaâ€“French Three-Factor and Carhart Four-Factor Models in the Indian Equity Market (1993â€“2025)**
 
 ---
 
@@ -8,16 +10,16 @@
 
 This research paper conducts an exhaustive empirical investigation into the cross-section of equity returns in India over a 32-year historical horizon (November 1993 to December 2025, $T = 386$ monthly observations). Using the survivorship-bias-corrected academic factor library from the Indian Institute of Management Ahmedabad (IIMA) based on CMIE Prowess DX, we test three canonical asset pricing models:
 1. **Capital Asset Pricing Model (CAPM)** (Sharpe, 1964; Lintner, 1965)
-2. **Fama–French Three-Factor Model (FF3)** (Fama & French, 1993)
+2. **Famaâ€“French Three-Factor Model (FF3)** (Fama & French, 1993)
 3. **Carhart Four-Factor Model (FF4)** (Carhart, 1997)
 
 ### Key Empirical Findings
-- **Failure of the CAPM:** The CAPM fails to span the mean-variance efficient frontier of Indian equities. The Mean Absolute Alpha ($MAA$) is $4.12\%$ annualized ($0.343\%/\text{month}$), and the Gibbons–Ross–Shanken (GRS) joint test strongly rejects the zero-alpha null hypothesis ($F = 3.05, p = 0.0016$).
+- **Failure of the CAPM:** The CAPM fails to span the mean-variance efficient frontier of Indian equities. The Mean Absolute Alpha ($MAA$) is $4.12\%$ annualized ($0.343\%/\text{month}$), and the Gibbonsâ€“Rossâ€“Shanken (GRS) joint test strongly rejects the zero-alpha null hypothesis ($F = 3.05, p = 0.0016$).
 - **The Value Premium ($HML$) is Economically and Statistically Significant:** High book-to-market stocks generate an annualized factor premium of $+8.50\%$ ($t = 2.37, p = 0.0185$), confirming that value investing carries significant compensation in India.
 - **The Size Premium ($SMB$) is Ineffective:** Small-capitalization stocks fail to deliver a positive premium in India (annualized return of $-2.92\%$, $t = -0.99, p = 0.3236$). Under high-volatility/crisis regimes, small-cap returns collapse to $-7.76\%$ p.a., demonstrating that size represents uncompensated downside leverage rather than a systematic positive drift.
 - **Momentum ($WML$) is the Dominant Cross-Sectional Factor:** Prior 12-month winners outperform losers by $+13.35\%$ annualized ($t = 3.08, p = 0.0022$), delivering an annualized Sharpe ratio of $0.54$.
 - **Carhart Four-Factor Superiority:** Introducing Momentum reduces Mean Absolute Pricing Errors ($MAA$) by $31\%$ relative to CAPM (down to $2.85\%$ p.a.) and reduces unexplained residual variance by over $50\%$.
-- **Out-of-Sample Validation (2016–2025):** In the 10-year out-of-sample test ($N = 120$), the Carhart 4-factor model is the only specification that fails to reject the GRS zero-alpha hypothesis on Size-Value ($p = 0.0501$) and Size-Momentum ($p = 0.0524$) sub-portfolios, with $MAA$ dropping to $2.33\%$ p.a.
+- **Out-of-Sample Validation (2016â€“2025):** In the 10-year out-of-sample test ($N = 120$), the Carhart 4-factor model is the only specification that fails to reject the GRS zero-alpha hypothesis on Size-Value ($p = 0.0501$) and Size-Momentum ($p = 0.0524$) sub-portfolios, with $MAA$ dropping to $2.33\%$ p.a.
 - **Multi-Factor Portfolio Resilience:** An equal-weighted multi-factor portfolio ($MF + HML + WML$) achieves a Sharpe ratio of **$0.85$** (CAGR of $9.86\%$, Max Drawdown of $-33.32\%$ vs. the Market's $-75.14\%$). Net of $50\text{ bps}$ transaction costs, the strategy retains a Sharpe ratio of **$0.81$** and a Net CAGR of $9.34\%$.
 
 ---
@@ -51,7 +53,7 @@ $$\mathbb{E}_t[R_{i,t+1}] - R_f = - R_f \text{Cov}_t(m_{t+1}, R_{i,t+1}) = \left
 1. **Capital Asset Pricing Model (CAPM):**
    $$R_{i,t} - R_{f,t} = \alpha_i + \beta_{i,M} MF_t + \epsilon_{i,t}$$
    where $MF_t = R_{m,t} - R_{f,t}$ is the value-weighted market excess return.
-2. **Fama–French Three-Factor Model (FF3):**
+2. **Famaâ€“French Three-Factor Model (FF3):**
    $$R_{i,t} - R_{f,t} = \alpha_i + \beta_{i,M} MF_t + \beta_{i,S} SMB_t + \beta_{i,H} HML_t + \epsilon_{i,t}$$
 3. **Carhart Four-Factor Model (FF4):**
    $$R_{i,t} - R_{f,t} = \alpha_i + \beta_{i,M} MF_t + \beta_{i,S} SMB_t + \beta_{i,H} HML_t + \beta_{i,W} WML_t + \epsilon_{i,t}$$
@@ -125,19 +127,19 @@ Figure 10: Carhart 4-Factor Loading Matrix Heatmap
 
 ---
 
-## 7. Pricing Error Comparison & Gibbons–Ross–Shanken (GRS) Test
+## 7. Pricing Error Comparison & Gibbonsâ€“Rossâ€“Shanken (GRS) Test
 
 ### Table 4: Cross-Model Pricing Error Summary (Evaluated on 9 Balanced Test Portfolios)
 
 | Sample Period | Model | MAA (%/mo) | MAA Annualized (%) | RMS Alpha (%/mo) | Max \|Alpha\| (%/mo) | Sig Alphas (p<0.05) | Mean $R^2$ (%) | Mean Resid Vol (%) |
 |---|---|---|---|---|---|---|---|---|
-| **Full Sample (1993–2025)** | **CAPM** | 0.343 | 4.12 | 0.384 | 0.56 | 1 / 9 | 74.2 | 4.88 |
+| **Full Sample (1993â€“2025)** | **CAPM** | 0.343 | 4.12 | 0.384 | 0.56 | 1 / 9 | 74.2 | 4.88 |
 | | **FF3** | 0.312 | 3.75 | 0.396 | 0.60 | 4 / 9 | 87.7 | 3.11 |
 | | **FF4** | **0.238** | **2.85** | **0.288** | 0.62 | 3 / 9 | **93.4** | **2.33** |
-| **In-Sample (1993–2015)** | **CAPM** | 0.324 | 3.89 | 0.386 | 0.69 | 1 / 9 | 73.8 | 5.40 |
+| **In-Sample (1993â€“2015)** | **CAPM** | 0.324 | 3.89 | 0.386 | 0.69 | 1 / 9 | 73.8 | 5.40 |
 | | **FF3** | 0.322 | 3.87 | 0.397 | 0.74 | 3 / 9 | 87.3 | 3.50 |
 | | **FF4** | **0.303** | **3.64** | **0.353** | 0.71 | 3 / 9 | **93.4** | **2.59** |
-| **Out-of-Sample (2016–2025)** | **CAPM** | 0.350 | 4.20 | 0.463 | 1.07 | 1 / 9 | 77.7 | 3.35 |
+| **Out-of-Sample (2016â€“2025)** | **CAPM** | 0.350 | 4.20 | 0.463 | 1.07 | 1 / 9 | 77.7 | 3.35 |
 | | **FF3** | 0.342 | 4.11 | 0.447 | 0.92 | 3 / 9 | 90.4 | 1.94 |
 | | **FF4** | **0.194** | **2.33** | **0.214** | **0.33** | 1 / 9 | **94.1** | **1.56** |
 
@@ -146,17 +148,17 @@ Figure 9: Cross-Model Pricing Error Comparison (Full Sample vs Out-of-Sample)
 [Saved as results/figures/fig09_model_pricing_error_comparison.png]
 ```
 
-### Table 5: Gibbons–Ross–Shanken (GRS) Exact Joint Test of Zero Pricing Errors ($H_0: \boldsymbol{\alpha} = \mathbf{0}$)
+### Table 5: Gibbonsâ€“Rossâ€“Shanken (GRS) Exact Joint Test of Zero Pricing Errors ($H_0: \boldsymbol{\alpha} = \mathbf{0}$)
 
 | Sample Period | Asset Set | Model | N | K | T | GRS F-Stat | p-value | Reject $H_0$ (5%) |
 |---|---|---|---|---|---|---|---|---|
-| **Full Sample (1993–2025)** | 9 Balanced Portfolios | **CAPM** | 9 | 1 | 377 | 3.049 | 0.0016 | **Yes** |
+| **Full Sample (1993â€“2025)** | 9 Balanced Portfolios | **CAPM** | 9 | 1 | 377 | 3.049 | 0.0016 | **Yes** |
 | | 9 Balanced Portfolios | **FF3** | 9 | 3 | 377 | 5.382 | 0.0000 | **Yes** |
 | | 9 Balanced Portfolios | **FF4** | 9 | 4 | 377 | 4.291 | 0.0000 | **Yes** |
 | | 5 Size-Value Portfolios | **CAPM** | 5 | 1 | 385 | 1.658 | 0.1440 | No |
 | | 5 Size-Value Portfolios | **FF3** | 5 | 3 | 385 | 5.021 | 0.0002 | **Yes** |
 | | 5 Size-Value Portfolios | **FF4** | 5 | 4 | 385 | 5.542 | 0.0001 | **Yes** |
-| **Out-of-Sample (2016–2025)** | 9 Balanced Portfolios | **CAPM** | 9 | 1 | 120 | 3.242 | 0.0016 | **Yes** |
+| **Out-of-Sample (2016â€“2025)** | 9 Balanced Portfolios | **CAPM** | 9 | 1 | 120 | 3.242 | 0.0016 | **Yes** |
 | | 9 Balanced Portfolios | **FF3** | 9 | 3 | 120 | 3.570 | 0.0006 | **Yes** |
 | | 9 Balanced Portfolios | **FF4** | 9 | 4 | 120 | 2.137 | 0.0323 | **Yes** |
 | | 5 Size-Value Portfolios | **FF4** | 5 | 4 | 120 | **2.295** | **0.0501** | **No (Fails to Reject)** |
@@ -236,7 +238,7 @@ Figure 14: Strategy Sharpe Ratio Decay under Transaction Cost Friction
    **Momentum ($WML$, $+13.35\%$ p.a., $t = 3.08$)** and **Value ($HML$, $+8.50\%$ p.a., $t = 2.37$)**. Market premium is $+8.61\%$ ($t=1.99$). Size ($SMB$) is insignificant ($-2.92\%$, $t = -0.99$).
 5. **Are factor premia stable across market regimes?**
    **No.** Small-cap premium experiences a severe regime shift ($+2.05\%$ in normal times vs $-7.76\%$ during crises). Momentum volatility doubles during market distress.
-6. **Do results survive out-of-sample (2016–2025)?**
+6. **Do results survive out-of-sample (2016â€“2025)?**
    **Yes.** The Carhart 4-factor model demonstrates exceptional out-of-sample stability, reducing $MAA$ to $2.33\%$ p.a. and failing to reject the GRS zero-alpha null on Size-Value ($p = 0.0501$) and Size-Momentum ($p = 0.0524$) sub-portfolios.
 7. **Do transaction costs materially change conclusions?**
    **No.** While Momentum experiences turnover drag (Sharpe falls from 0.54 to 0.46 at 100 bps), the Multi-Factor strategy retains a Sharpe ratio of **0.81** at 50 bps and **0.77** at 100 bps.
@@ -248,3 +250,4 @@ Figure 14: Strategy Sharpe Ratio Decay under Transaction Cost Friction
 ## 11. Conclusion & Recommendations
 
 This study establishes that empirical asset pricing in Indian equities is governed by a **two-pillar factor architecture: Value and Momentum**. Traditional Size ($SMB$) provides no unconditional premium and exacerbates crash risk. Investors and quantitative researchers operating in Indian equities should focus on multi-factor allocations combining Value and Momentum, which exploit the $-0.37$ pairwise correlation to achieve high risk-adjusted Sharpe ratios ($0.85$ gross / $0.81$ net of friction) with minimal drawdown risk.
+

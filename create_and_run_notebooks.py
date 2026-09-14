@@ -20,7 +20,7 @@ def build_master_notebook():
     cells.append(nbf.v4.new_markdown_cell("""# Empirical Asset Pricing in Indian Equities: Factor Premia, Pricing Errors and Regime Dependence
 ### Testing CAPM, Fama–French Three-Factor and Carhart Four-Factor Models (1993–2025)
 
-**Author:** Quantitative Finance Research Group  
+**Author:** Shaswat Bhaskar  
 **Dataset:** IIM Ahmedabad Fama-French & Momentum Factors Library (CMIE Prowess DX + RBI)  
 **Sample Period:** November 1993 to December 2025 ($T = 386$ monthly observations / 8,004 daily observations)
 
